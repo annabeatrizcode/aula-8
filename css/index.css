@@ -1,0 +1,165 @@
+/* ============================================================
+   1. RESET E ESTILOS GERAIS
+   ============================================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f6;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* ============================================================
+   2. CABEÇALHO (ESTILO PORTAL GLOBO / G1)
+   ============================================================ */
+header {
+  background-color: #0671eb; /* Vermelho vibrante estilo G1 */
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+}
+
+/* ============================================================
+   3. LAYOUT PRINCIPAL (CONTAINER E MENU)
+   ============================================================ */
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  padding: 20px;
+}
+
+/* Barra do Menu estilo atalhos coloridos */
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #eee;
+}
+
+nav h3 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+/* Estilização dos Links do Menu */
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95rem;
+  transition: opacity 0.2s;
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+
+/* Cores individuais para cada link (estilo topo Globo) */
+nav a[href="index.html"] {
+  color: #0076c9; /* Azul */
+}
+
+nav a[href="página2.html"] {
+  color: #c4170c; /* Vermelho */
+}
+
+nav a[href="pagina3.html"] {
+  color: #008000; /* Verde */
+}
+
+/* ============================================================
+   4. CONTEÚDO PRINCIPAL (MAIN E SEÇÕES)
+   ============================================================ */
+main section {
+  margin-bottom: 35px;
+}
+
+/* Títulos das Seções */
+h2 {
+  font-size: 1.5rem;
+  color: #111;
+  margin-bottom: 15px;
+  border-left: 4px solid #c4170c; /* Detalhe vermelho na lateral */
+  padding-left: 10px;
+}
+
+.frase-centralizada {
+  text-align: center;
+  border-left: none;
+  font-size: 1.8rem;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+/* Parágrafos */
+p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+/* Estilização da Imagem */
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 15px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilização da Lista de Estilos Musicais */
+#estilos ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+}
+
+#estilos li {
+  background-color: #f0f4f8;
+  color: #0076c9;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border: 1px solid #d0e1f9;
+}
+
+/* ============================================================
+   5. RODAPÉ (FOOTER)
+   ============================================================ */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222222;
+  color: #aaaaaa;
+  font-size: 0.85rem;
+  margin-top: 40px;
+}
+
+footer p {
+  color: #aaaaaa;
+  margin: 0;
+}
